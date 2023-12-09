@@ -147,7 +147,7 @@ export default class War3MapW3i {
     }
 
     if (this.version >= 27) {
-      this.lua = stream.readInt32();
+      this.lua = stream.readInt8();
     }
 
     for (let i = 0, l = stream.readInt32(); i < l; i++) {

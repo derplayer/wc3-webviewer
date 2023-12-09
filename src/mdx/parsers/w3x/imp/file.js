@@ -8,14 +8,11 @@ export default class War3MapImp {
   /**
    *
    */
-  constructor(buffer) {
+  constructor() {
     /** @member {number} */
     this.version = 1;
     /** @member {Map<string, Import>} */
     this.entries = new Map();
-    if (buffer) {
-      this.load(buffer);
-    }
   }
 
   /**

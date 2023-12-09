@@ -24,7 +24,7 @@ export default class TerrainDoodad {
    * @param {number} version
    */
   load(stream, version) {
-    this.id = stream.read(4, true);
+    this.id = stream.read(4);
     this.variation = stream.readUint32();
     this.location = stream.readUint32Array(2);
   }
