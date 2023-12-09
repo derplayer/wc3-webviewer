@@ -41,8 +41,8 @@ File gzip(File src) {
 }
 
 #define WRITE_ALL_IMAGES 0
-#define GENERATE_META 0
-#define USE_CDN 1
+#define GENERATE_META 1
+#define USE_CDN 0
 #define GENERATE_MAPS 0
 #define TEST_MAP 0
 #define NUM_IMAGE_ARCHIVES 8
